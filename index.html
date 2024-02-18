@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- Titel der Seite -->
+    <title>CO2 Emissionen Vergleich</title>
+    <!-- Für richtige Darstellung Umlaute -->
+    <meta charset="UTF-8" />
+    <!-- für responsive Darstellung -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link zu CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+    <header>
+      <!-- Logo  -->
+      <div class="mittig">
+      <a href="/"/>
+         <img 
+         src="images/Logo_co2.jpg" 
+         alt="Logo_Co2" 
+         width="150" 
+         />
+      </a>
+      </div>
+      
+      <!-- Überschrift  -->  
+      <h1 class="mittig">CO2 EMISSIONEN WELTWEIT</h1>
+      <h2 class="mittig">Vergleich verschiedener Länder und Unternehmen</h2>
+      
+      <!-- globale Navigation -->
+      <nav class>
+        <a style="text-decoration:none; color:black" href="/">Startseite </a>
+         | 
+        <a style="text-decoration:none; color:black" href="/quelle.html"> Informationen zur Quelle </a>
+           | 
+        <a style="text-decoration:none; color:black" href="/contact.html"> Kontakt</a>
+      </nav>
+    </header>
+    
+    <!-- Content Bereich -->
+    <main>
+      <h2 style="padding-top:10px">Co2 Emissionen</h2>
+      <b>in Millionen Tonnen (Stand 2015)</b>
+      <p></p>
+
+      <!-- Suchfeld für Tabelle -->
+      <p id="Eingabe"> 
+        <input type="text" pattern="[a-zA-Z0-9]+" class="Filter_Tabelle_Co2" data-for="table" placeholder="Suchen..."></label> 
+      </p> 
+
+      <!-- Tabelle (th= table heading; tr = table row)-->
+      <table id="CO2_Tabelle">
+        <thead>
+          <tr>
+          <th>LAND</th>
+          <th>UNTERNEHMEN</th>
+          <th>CO2</th>
+          </tr>
+        </thead>
+        <!-- Inhalte der Tabelle -->
+        <tbody>
+          <tr>
+            <td>Luxemburg</td>
+            <td>Arcelormittal (Stahlindustrie)</td>
+            <td style="text-align:right">207</td>
+          </tr>
+          <tr>
+            <td>Deutschland</td>
+            <td>RWE (Energieversorgung)</td>
+            <td style="text-align:right">167</td>
+          </tr>
+          <tr>
+            <td>Frankreich</td>
+            <td>GDF Suez (Energieversorgung)</td>
+            <td style="text-align:right">142</td>
+          </tr>
+          <tr>
+            <td>Deutschland</td>
+            <td>E.on (Energieversorgung)</td>
+            <td style="text-align:right">121</td>
+          </tr>
+          <tr>
+            <td>Italien</td>
+            <td>Enel (Energieversorgung)</td>
+            <td style="text-align:right">116</td>
+          </tr>
+          <tr>
+            <td>Schweiz</td>
+            <td>Holcim (Baustoffindustrie)</td>
+            <td style="text-align:right">97</td>
+          </tr>
+          <tr>
+            <td>Frankreich</td>
+            <td>Lafarge (Baustoffindustrie)</td>
+            <td style="text-align:right">89</td>
+          </tr>
+          <tr>
+            <td>Vereinigtes Königreich</td>
+            <td>Royal Dutch Shell (Mineralöl- und Erdgasindustrie)</td>
+            <td style="text-align:right">83</td>
+          </tr>
+          <tr>
+            <td>Südkorea</td>
+            <td>Posco (Stahlindustrie)</td>
+            <td style="text-align:right">77</td>
+          </tr>
+          <tr>
+            <td>Südafrika</td>
+            <td>Sasol (Chemieindustrie)</td>
+            <td style="text-align:right">10</td>
+          </tr>
+          <tr>
+            <td>China</td>
+            <td></td>
+            <td style="text-align:right">9861</td>
+          </tr>
+          <tr>
+            <td>Vereinigte Staaten</td>
+            <td></td>
+            <td style="text-align:right">4991</td>
+          </tr>
+          <tr>
+            <td>Indien</td>
+            <td></td>
+            <td style="text-align:right">2158</td>
+          </tr>
+          <tr>
+            <td>Russland</td>
+            <td></td>
+            <td style="text-align:right">1593</td>
+          </tr>
+          <tr>
+            <td>Japan</td>
+            <td></td>
+            <td style="text-align:right">1179</td>
+          </tr>
+          <tr>
+            <td>Deutschland</td>
+            <td></td>
+            <td style="text-align:right">742</td>
+          </tr>
+          <tr>
+            <td>Iran</td>
+            <td></td>
+            <td style="text-align:right">599</td>
+          </tr>
+          <tr>
+            <td>Indonesien</td>
+            <td></td>
+            <td style="text-align:right">489</td>
+          </tr>
+          <tr>
+            <td>Südkorea</td>
+            <td></td>
+            <td style="text-align:right">608</td>
+          </tr>
+          <tr>
+            <td>Kanada</td>
+            <td></td>
+            <td style="text-align:right">559</td>
+          </tr>
+          <tr>
+            <td>Saudi Arabien</td>
+            <td></td>
+            <td style="text-align:right">565</td>
+          </tr>
+          <tr>
+            <td>Mexiko</td>
+            <td></td>
+            <td style="text-align:right">472</td>
+          </tr>
+          <tr>
+            <td>Südafrika</td>
+            <td></td>
+            <td style="text-align:right">425</td>
+          </tr>
+          <tr>
+            <td>Brazilien</td>
+            <td></td>
+            <td style="text-align:right">485</td>
+          </tr>
+          <tr>
+            <td>Türkei</td>
+            <td></td>
+            <td style="text-align:right">351</td>
+          </tr>
+          <tr>
+            <td>Australien</td>
+            <td></td>
+            <td style="text-align:right">378</td>
+          </tr>
+          <tr>
+            <td>Vereinigtes Königreich</td>
+            <td></td>
+            <td style="text-align:right">401</td>
+          </tr>
+          <tr>
+            <td>Vietnam</td>
+            <td></td>
+            <td style="text-align:right">221</td>
+          </tr>
+          <tr>
+            <td>Italien</td>
+            <td></td>
+            <td style="text-align:right">338</td>
+          </tr>
+          <tr>
+            <td>Frankreich</td>
+            <td></td>
+            <td style="text-align:right">311</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Suchfunktion für Tabelle  -->
+      <script> 
+      document.querySelectorAll(".Filter_Tabelle_Co2").forEach(function (input) { 
+        var table = document.querySelector(input.dataset.for); 
+        var rows = table.querySelectorAll("tbody tr"); 
+        input.addEventListener("input", () => { 
+          rows.forEach(function (tr) { 
+
+            if (input.value.length > 0) { 
+              if (input.value[0] == input.value[0].toUpperCase()) { 
+                tr.hidden = !tr.textContent.includes(input.value); 
+              } else { 
+                tr.hidden = !tr.textContent.toLowerCase().includes(input.value.toLowerCase()); 
+              } 
+            } else { 
+              tr.hidden = !tr.textContent.includes(input.value); 
+            } 
+          }); 
+        }); 
+      }); 
+      </script>
+
+      <!-- Sortierfunktion für Tabelle  -->
+      <script> 
+      const table = document.getElementById("CO2_Tabelle"); 
+      const headers = table.querySelectorAll("th"); 
+      const tableBody = table.querySelector("tbody"); 
+      const rows = tableBody.querySelectorAll("tr"); 
+      const directions = Array.from(headers).map(function(header) { 
+        return ""; 
+      }); 
+
+      const transform = function(index, content) { 
+        const type = headers[index].getAttribute("data-type"); 
+        switch (type) { 
+          case "number": 
+          return parseFloat(content); 
+          case "string": 
+          default: 
+          return content; 
+        } 
+      }; 
+
+      const sortColumn = function(index, headers) { 
+
+      const cls = ["upArrow", "dnArrow"]; 
+      headers.forEach((header) => { 
+        document.getElementById(header.id).classList.remove(...cls); 
+      }); 
+
+      const direction = directions[index] || "asc"; 
+      const multiplier = (direction === "asc") ? 1 : -1; 
+      const cssSort = (direction === "asc") ? cls[0] : cls[1]; 
+      document.getElementById(index).classList.add(cssSort); 
+
+      const newRows = Array.from(rows); 
+      newRows.sort((rowA, rowB) => { 
+      const cellA = encodeURIComponent(rowA.querySelectorAll("td")[index].textContent.toLowerCase()); 
+      const cellB = encodeURIComponent(rowB.querySelectorAll("td")[index].textContent.toLowerCase()); 
+
+      const a = transform(index, cellA); 
+      const b = transform(index, cellB); 
+
+      switch (true) { 
+        case a > b: return 1 * multiplier; 
+        case a < b: return -1 * multiplier; 
+        case a === b: return 0; 
+        } 
+      }); 
+
+      [].forEach.call(rows, function(row) { 
+        tableBody.removeChild(row); 
+      }); 
+
+      directions[index] = direction === "asc" ? "desc" : "asc"; 
+      newRows.forEach(function(newRow) { 
+        tableBody.appendChild(newRow); 
+      }); 
+      }; 
+
+      [].forEach.call(headers, function(header, index) { 
+        header.setAttribute("id", index); 
+        header.addEventListener("click", () => { 
+          sortColumn(index, headers); 
+        }); 
+      }); 
+      </script>
+
+      <p></p>
+    </main> 
+    <!-- Footer mit rechtlichen Hinweisen -->
+    <footer></footer>
+    <div style="left:0;bottom:0;width:100%;background-color:#f2e07847;padding:1px;color:black;text-align:center">
+      <p>Copyright 2023 by J.P. Alle Rechte vorbehalten.</p>
+    </div>
+    </footer>
+  </body>
+
+</html>
+    
